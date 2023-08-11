@@ -4,7 +4,6 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <LangVersion>default</LangVersion>
-        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Title>PkceChallenge</Title>
         <Authors>Jerrett Davis</Authors>
         <Description>Generate or verify a Proof Key for Code Exchange (PKCE) challenge pair.</Description>
