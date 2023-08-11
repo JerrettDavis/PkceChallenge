@@ -8,7 +8,7 @@
 ![GitHub](https://img.shields.io/github/license/JerrettDavis/PkceChallenge)
 
 
-This library is a direct port of the npm package [pkce-challenge](https://www.npmjs.com/package/pkce-challenge) to .NET7.
+This library is a direct port of the npm package [pkce-challenge](https://www.npmjs.com/package/pkce-challenge) to .NET.
 
 Generate or verify a Proof Key for Code Exchange (PKCE) challenge pair.
 

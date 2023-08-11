@@ -1,5 +1,6 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
+using Pkce.Challenge.Common;
 
 namespace Pkce.Challenge;
 
@@ -53,8 +54,7 @@ public class Pkce
     /// <returns></returns>
     public static string GenerateChallenge(string codeVerifier)
     {
-        var codeVerifierBytes = Encoding.UTF8.GetBytes(codeVerifier);
-        var hashBytes = SHA256.HashData(codeVerifierBytes);
+        var hashBytes = codeVerifier.ToSHA256ByteArray();
         var base64Url = Convert.ToBase64String(hashBytes)
             .Replace("/", "_")
             .Replace("+", "-")
