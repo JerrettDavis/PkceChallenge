@@ -1,4 +1,15 @@
 My Changelog
+<a name="1.0.1"></a>
+## [1.0.1](https://www.github.com/JerrettDavis/PkceChallenge/releases/tag/v1.0.1) (2023-8-11)
+
+### 🐛 Bug Fixes
+
+* made compatible with .Net Standard 2.0 and 2.1 ([23bd487](https://www.github.com/JerrettDavis/PkceChallenge/commit/23bd487884b4b96570658b35f9991c583d37e876))
+
+### Other
+
+* did not account for naming differences with multi-targeting for coverage. Updated coverage file name in CI ([8a0fc44](https://www.github.com/JerrettDavis/PkceChallenge/commit/8a0fc44df9de96850418f4ce312aeb13d393cdbb))
+
 <a name="1.0.0"></a>
 ## [1.0.0](https://www.github.com/JerrettDavis/PkceChallenge/releases/tag/v1.0.0) (2023-8-11)
 
