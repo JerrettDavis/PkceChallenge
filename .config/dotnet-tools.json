@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "versionize": {
+      "version": "1.18.0",
+      "commands": [
+        "versionize"
+      ]
+    },
+    "dotnet-coverage": {
+      "version": "17.8.2",
+      "commands": [
+        "dotnet-coverage"
+      ]
+    }
+  }
+}
