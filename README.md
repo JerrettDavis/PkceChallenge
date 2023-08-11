@@ -1,5 +1,13 @@
 # PkceChallenge
 
+[![Coverage Status](https://coveralls.io/repos/github/JerrettDavis/PkceChallenge/badge.svg?branch=main)](https://coveralls.io/github/JerrettDavis/PkceChallenge?branch=main)
+![Build Status](https://github.com/JerrettDavis/PkceChallenge/actions/workflows/CI.yml/badge.svg)
+![Deployment Status](https://github.com/JerrettDavis/PkceChallenge/actions/workflows/publish.yml/badge.svg)
+[![Nuget](https://img.shields.io/nuget/dt/PkceChallenge)](https://www.nuget.org/packages/PkceChallenge/)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
+![GitHub](https://img.shields.io/github/license/JerrettDavis/PkceChallenge)
+
+
 This library is a direct port of the npm package [pkce-challenge](https://www.npmjs.com/package/pkce-challenge) to .NET7.
 
 Generate or verify a Proof Key for Code Exchange (PKCE) challenge pair.

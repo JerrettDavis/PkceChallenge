@@ -6,17 +6,16 @@ on:
     types:
       - completed
 
+permissions:
+  statuses: write
+  checks: write
+
 jobs:
   report:
     runs-on: ubuntu-latest
-    permissions:
-      actions: read
-      contents: read
-      security-events: write
     steps:
     - name: Run git init to work around test reporter bug
       run: git init
-
     - name: Test Report
       uses: dorny/test-reporter@v1
       if: success() || failure()
@@ -25,3 +24,4 @@ jobs:
         name: XUnit Tests
         path: '**/*.trx'
         reporter: dotnet-trx
+        
