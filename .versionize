@@ -11,7 +11,7 @@
       {
         "type": "fix",
         "section": "🐛 Bug Fixes",
-        "hidden": faose
+        "hidden": false
       },
       {
         "type": "perf",
