@@ -9,3 +9,5 @@ TestResults/
 coverage.info
 *.DotSettings.user
 *.user
+
+coverage.*.info
