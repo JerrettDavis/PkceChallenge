@@ -17,7 +17,7 @@ jobs:
     - name: Run git init to work around test reporter bug
       run: git init
     - name: Test Report
-      uses: dorny/test-reporter@v1
+      uses: dorny/test-reporter@v3
       if: success() || failure()
       with:
         artifact: test-results
