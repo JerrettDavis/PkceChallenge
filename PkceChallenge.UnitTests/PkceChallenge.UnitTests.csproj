@@ -7,7 +7,7 @@
         <IsPackable>false</IsPackable>
         <IsTestProject>true</IsTestProject>
         <RootNamespace>Pkce.Challenge.UnitTests</RootNamespace>
-        <TargetFrameworks>net7.0;net6.0</TargetFrameworks>
+        <TargetFramework>net8.0</TargetFramework>
     </PropertyGroup>
 
     <ItemGroup>
