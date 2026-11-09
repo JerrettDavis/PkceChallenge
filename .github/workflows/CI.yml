@@ -49,3 +49,13 @@ jobs:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         file: './PkceChallenge.UnitTests/coverage.info'
         format: lcov
+
+  report:
+    needs: build
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+    - name: Report build result
+      run: |
+        echo "build result: ${{ needs.build.result }}"
+        test "${{ needs.build.result }}" = "success"
